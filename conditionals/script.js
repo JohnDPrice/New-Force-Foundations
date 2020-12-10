@@ -117,7 +117,7 @@ if(bob.preferredLanguage === "English") {
 
 // Practice #5 Conditionals
 
-]let time = "7:00 PM"
+let time = "7:00 PM"
 isHungry = true
 
 if(time === "7:30" && isHungry === true) {
@@ -134,8 +134,19 @@ if(time === "7:30" && isHungry === true) {
 
 // Practice #6 Student Grades
 
-let grade = 10
+let grade = 100
 
-if(grade >= 0 || grade <= 69) {
-    console.log("YOu got an F")
-} else if (grade >= 70 ||  )
+if(grade >= 0 && grade <= 69) {
+    console.log("You got an F")
+} else if (grade >= 70 && grade <= 76) {
+    console.log("You got a D")
+} else if (grade >= 77 && grade <= 84) {
+    console.log("You got a C") 
+} else if (grade >= 84 && grade <= 92) {
+    console.log("You got a B")
+} else if (grade >= 93 && grade <= 100) {
+    console.log("You got an A")
+}
+
+// Challenge - Conditionals
+
